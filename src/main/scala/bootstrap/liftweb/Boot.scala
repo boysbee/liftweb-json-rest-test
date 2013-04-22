@@ -12,6 +12,7 @@ import mapper._
 import code.model._
 import net.liftmodules.JQueryModule
 import code.snippet._
+import code.api.JsonReply
 
 /**
  * A class that's instantiated early and run.  It allows the application

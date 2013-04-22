@@ -1,18 +1,11 @@
-package code
-package snippet
+package code.api
 
-import scala.xml.{ NodeSeq, Text }
-import net.liftweb.util._
-import net.liftweb.common._
-import java.util.Date
-import code.lib._
-import Helpers._
+import net.liftweb.json._
+import net.liftweb.json.JsonDSL._
 import net.liftweb.http._
 import net.liftweb.http.rest._
-import net.liftweb.json.JsonDSL._
-import code.model._
-import net.liftweb.json.JsonAST._
-import net.liftweb.json.Printer._
+import net.liftweb.util.Helpers._
+
 
 object JsonReply extends RestHelper {
   serve {
